@@ -2,11 +2,15 @@
 * @Author: otae
 * @Date:   2017-07-15 11:33:09
 * @Last Modified by:   otae
-* @Last Modified time: 2017-07-15 12:01:13
+* @Last Modified time: 2017-07-15 13:36:52
 */
 
-void deamonize();
+void take_part_screenshot();
+void take_screenshot();
 
-int main(void) {
-	deamonize();
+int main(int ac, char **av) {
+	if (ac > 1)
+		take_part_screenshot();
+	else
+		take_screenshot();
 }
