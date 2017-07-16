@@ -3,7 +3,7 @@
 * @Author: https://en.wikipedia.org/wiki/User:Evercat/Buddhabrot.c
 * @Date:   2017-07-16 07:55:55
 * @Last Modified by:   otae
-* @Last Modified time: 2017-07-16 08:28:52
+* @Last Modified time: 2017-07-16 09:53:52
 * This code comes from https://en.wikipedia.org/wiki/User:Evercat/Buddhabrot.c
 */
 
@@ -53,6 +53,10 @@ headers[12] = 0;                    // biClrImportant
 
 outfile = fopen(filename, "wb");
 
+if (outfile == NULL) {
+	printf("Error: Can't open output file\n");
+	exit(-1);
+}
 //
 // Headers begin...
 // When printing ints and shorts, we write out 1 character at a time to avoid endian issues.
