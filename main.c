@@ -2,7 +2,7 @@
 * @Author: otae
 * @Date:   2017-07-15 11:33:09
 * @Last Modified by:   otae
-* @Last Modified time: 2017-07-16 08:43:52
+* @Last Modified time: 2017-07-16 10:04:35
 */
 
 #include <X11/Xlib.h>
@@ -44,7 +44,7 @@ static void draw_selection_square(t_graphic_context context) {
 				return ;
 			break;
 			case KeyPress:
-				return ;
+			//	return ;
 			break;
 		}
 		XClearWindow(context.display, context.window);

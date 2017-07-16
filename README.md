@@ -6,3 +6,5 @@ Because of portability issue, you have to manually add the executable to your cu
 Execute ./compile.sh to compile the executable.
 Use ./caption_this to take the whole screen, or ./caption_this (any argument) to select a part of the screen and save it. Just Press the mouse button down to select the screen part you want then release the button.
 
+Example avalaible here: https://www.youtube.com/watch?v=7EOSV95oOgY&feature=youtu.be
+
